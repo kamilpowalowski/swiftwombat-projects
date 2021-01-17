@@ -1,6 +1,6 @@
 import UIKit
 
-class AppDelegate: NSObject, UIApplicationDelegate {
+final class AppDelegate: NSObject, UIApplicationDelegate {
     
     var shortcutItem: UIApplicationShortcutItem? { AppDelegate.shortcutItem }
     
@@ -25,7 +25,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     }
 }
 
-private class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+private final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func windowScene(
         _ windowScene: UIWindowScene,
         performActionFor shortcutItem: UIApplicationShortcutItem,
