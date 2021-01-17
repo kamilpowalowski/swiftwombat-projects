@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E52DA27259C99F000B13AFC /* AppStorageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E52DA26259C99F000B13AFC /* AppStorageApp.swift */; };
+		8E52DA27259C99F000B13AFC /* HomeScreenQuickActionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E52DA26259C99F000B13AFC /* HomeScreenQuickActionsApp.swift */; };
 		8E52DA29259C99F000B13AFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E52DA28259C99F000B13AFC /* ContentView.swift */; };
 		8E52DA2B259C99F100B13AFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E52DA2A259C99F100B13AFC /* Assets.xcassets */; };
 		8E52DA2E259C99F100B13AFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E52DA2D259C99F100B13AFC /* Preview Assets.xcassets */; };
-		8EBA9E3C25AA0E7B00C9F49A /* Expanded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA9E3B25AA0E7B00C9F49A /* Expanded.swift */; };
+		8E7E469B25B30F58004C88B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7E469A25B30F58004C88B1 /* AppDelegate.swift */; };
+		8E7E46A025B31611004C88B1 /* QuickAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7E469F25B31611004C88B1 /* QuickAction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E52DA23259C99F000B13AFC /* AppStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E52DA26259C99F000B13AFC /* AppStorageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageApp.swift; sourceTree = "<group>"; };
+		8E52DA23259C99F000B13AFC /* HomeScreenQuickActions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeScreenQuickActions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E52DA26259C99F000B13AFC /* HomeScreenQuickActionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenQuickActionsApp.swift; sourceTree = "<group>"; };
 		8E52DA28259C99F000B13AFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E52DA2A259C99F100B13AFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E52DA2D259C99F100B13AFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8E52DA2F259C99F100B13AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EBA9E3B25AA0E7B00C9F49A /* Expanded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expanded.swift; sourceTree = "<group>"; };
+		8E7E469A25B30F58004C88B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E7E469F25B31611004C88B1 /* QuickAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,7 @@
 		8E52DA1A259C99F000B13AFC = {
 			isa = PBXGroup;
 			children = (
-				8E52DA25259C99F000B13AFC /* AppStorage */,
+				8E52DA25259C99F000B13AFC /* HomeScreenQuickActions */,
 				8E52DA24259C99F000B13AFC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,22 +48,23 @@
 		8E52DA24259C99F000B13AFC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E52DA23259C99F000B13AFC /* AppStorage.app */,
+				8E52DA23259C99F000B13AFC /* HomeScreenQuickActions.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E52DA25259C99F000B13AFC /* AppStorage */ = {
+		8E52DA25259C99F000B13AFC /* HomeScreenQuickActions */ = {
 			isa = PBXGroup;
 			children = (
-				8E52DA26259C99F000B13AFC /* AppStorageApp.swift */,
+				8E7E469A25B30F58004C88B1 /* AppDelegate.swift */,
+				8E52DA26259C99F000B13AFC /* HomeScreenQuickActionsApp.swift */,
 				8E52DA28259C99F000B13AFC /* ContentView.swift */,
-				8EBA9E3B25AA0E7B00C9F49A /* Expanded.swift */,
+				8E7E469F25B31611004C88B1 /* QuickAction.swift */,
 				8E52DA2A259C99F100B13AFC /* Assets.xcassets */,
 				8E52DA2F259C99F100B13AFC /* Info.plist */,
 				8E52DA2C259C99F100B13AFC /* Preview Content */,
 			);
-			path = AppStorage;
+			path = HomeScreenQuickActions;
 			sourceTree = "<group>";
 		};
 		8E52DA2C259C99F100B13AFC /* Preview Content */ = {
@@ -75,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E52DA22259C99F000B13AFC /* AppStorage */ = {
+		8E52DA22259C99F000B13AFC /* HomeScreenQuickActions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E52DA32259C99F100B13AFC /* Build configuration list for PBXNativeTarget "AppStorage" */;
+			buildConfigurationList = 8E52DA32259C99F100B13AFC /* Build configuration list for PBXNativeTarget "HomeScreenQuickActions" */;
 			buildPhases = (
 				8E52DA1F259C99F000B13AFC /* Sources */,
 				8E52DA20259C99F000B13AFC /* Frameworks */,
@@ -87,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = AppStorage;
+			name = HomeScreenQuickActions;
 			productName = FrameSize;
-			productReference = 8E52DA23259C99F000B13AFC /* AppStorage.app */;
+			productReference = 8E52DA23259C99F000B13AFC /* HomeScreenQuickActions.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8E52DA1E259C99F000B13AFC /* Build configuration list for PBXProject "AppStorage" */;
+			buildConfigurationList = 8E52DA1E259C99F000B13AFC /* Build configuration list for PBXProject "HomeScreenQuickActions" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E52DA22259C99F000B13AFC /* AppStorage */,
+				8E52DA22259C99F000B13AFC /* HomeScreenQuickActions */,
 			);
 		};
 /* End PBXProject section */
@@ -141,9 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E7E469B25B30F58004C88B1 /* AppDelegate.swift in Sources */,
 				8E52DA29259C99F000B13AFC /* ContentView.swift in Sources */,
-				8E52DA27259C99F000B13AFC /* AppStorageApp.swift in Sources */,
-				8EBA9E3C25AA0E7B00C9F49A /* Expanded.swift in Sources */,
+				8E7E46A025B31611004C88B1 /* QuickAction.swift in Sources */,
+				8E52DA27259C99F000B13AFC /* HomeScreenQuickActionsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,16 +276,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_ASSET_PATHS = "\"AppStorage/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HomeScreenQuickActions/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = AppStorage/Info.plist;
+				INFOPLIST_FILE = HomeScreenQuickActions/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiftwombat.AppStorage;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftwombat.HomeScreenQuickActions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -295,16 +300,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_ASSET_PATHS = "\"AppStorage/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HomeScreenQuickActions/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = AppStorage/Info.plist;
+				INFOPLIST_FILE = HomeScreenQuickActions/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiftwombat.AppStorage;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftwombat.HomeScreenQuickActions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -315,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E52DA1E259C99F000B13AFC /* Build configuration list for PBXProject "AppStorage" */ = {
+		8E52DA1E259C99F000B13AFC /* Build configuration list for PBXProject "HomeScreenQuickActions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E52DA30259C99F100B13AFC /* Debug */,
@@ -324,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E52DA32259C99F100B13AFC /* Build configuration list for PBXNativeTarget "AppStorage" */ = {
+		8E52DA32259C99F100B13AFC /* Build configuration list for PBXNativeTarget "HomeScreenQuickActions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E52DA33259C99F100B13AFC /* Debug */,

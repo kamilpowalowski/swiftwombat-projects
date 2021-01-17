@@ -1,55 +1,26 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            ViewA()
-            ViewB()
-            ViewC()
-        }
-    }
-}
-
-struct ViewA: View {
-    @AppStorage("valueKey") var value: Int = 0
+    @EnvironmentObject var quickActions: QuickActionService
     
     var body: some View {
         VStack {
-            Text("ViewA value: \(value)")
-            Button("Increment") { value += 1 }
+            Text("Home Screen Quick Actions")
+            if let quickAction = quickActions.action {
+                Text("Selected Quick Action: \(quickAction.rawValue)")
+            }
         }
-        .expanded()
-        .background(Color.yellow)
-    }
-}
-
-struct ViewB: View {
-    @AppStorage("valueKey") var value: Int = 0
-    
-    var body: some View {
-        VStack {
-            Text("ViewB value: \(value)")
-            Button("Decrement") { value -= 1 }
-        }
-        .expanded()
-        .background(Color.orange)
-    }
-}
-
-struct ViewC: View {
-    @AppStorage("valueKey", store: UserDefaults(suiteName: "com.swiftwombat.customStore")) var value: Int = 0
-    
-    var body: some View {
-        VStack {
-            Text("ViewC value in custom store: \(value)")
-        }
-        .expanded()
-        .background(Color.red)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+                .environmentObject(QuickActionService())
+            ContentView()
+                .environmentObject(QuickActionService(initialValue: .newMessage))
+        }
+        
     }
 }

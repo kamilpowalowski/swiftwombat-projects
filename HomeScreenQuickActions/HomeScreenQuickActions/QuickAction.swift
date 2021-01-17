@@ -1,8 +1,13 @@
-//
-//  QuickAction.swift
-//  HomeScreenQuickActions
-//
-//  Created by Kamil Powałowski on 16/01/2021.
-//
-
 import Foundation
+
+enum QuickAction: String {
+    case newMessage, search, inbox
+}
+
+class QuickActionService: ObservableObject {
+    @Published var action: QuickAction?
+    
+    init(initialValue: QuickAction? = nil) {
+        action = initialValue
+    }
+}
