@@ -12,6 +12,7 @@
 		8E52DA2B259C99F100B13AFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E52DA2A259C99F100B13AFC /* Assets.xcassets */; };
 		8E52DA2E259C99F100B13AFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E52DA2D259C99F100B13AFC /* Preview Assets.xcassets */; };
 		8EBA9E3C25AA0E7B00C9F49A /* Expanded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA9E3B25AA0E7B00C9F49A /* Expanded.swift */; };
+		8EC26F9F25BE2EE7000FDD60 /* Date+RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC26F9E25BE2EE7000FDD60 /* Date+RawRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8E52DA2D259C99F100B13AFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8E52DA2F259C99F100B13AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EBA9E3B25AA0E7B00C9F49A /* Expanded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expanded.swift; sourceTree = "<group>"; };
+		8EC26F9E25BE2EE7000FDD60 /* Date+RawRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+RawRepresentable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				8E52DA26259C99F000B13AFC /* AppStorageApp.swift */,
 				8E52DA28259C99F000B13AFC /* ContentView.swift */,
+				8EC26F9E25BE2EE7000FDD60 /* Date+RawRepresentable.swift */,
 				8EBA9E3B25AA0E7B00C9F49A /* Expanded.swift */,
 				8E52DA2A259C99F100B13AFC /* Assets.xcassets */,
 				8E52DA2F259C99F100B13AFC /* Info.plist */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E52DA29259C99F000B13AFC /* ContentView.swift in Sources */,
+				8EC26F9F25BE2EE7000FDD60 /* Date+RawRepresentable.swift in Sources */,
 				8E52DA27259C99F000B13AFC /* AppStorageApp.swift in Sources */,
 				8EBA9E3C25AA0E7B00C9F49A /* Expanded.swift in Sources */,
 			);

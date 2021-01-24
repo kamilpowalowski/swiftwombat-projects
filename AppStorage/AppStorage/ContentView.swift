@@ -6,6 +6,7 @@ struct ContentView: View {
             ViewA()
             ViewB()
             ViewC()
+            ViewD()
         }
     }
 }
@@ -45,6 +46,20 @@ struct ViewC: View {
         }
         .expanded()
         .background(Color.red)
+    }
+}
+
+struct ViewD: View {
+    @AppStorage("savedDate") var date: Date = Date()
+    
+    var body: some View {
+        print(date)
+        return VStack {
+            Text(date, style: .date)
+            Text(date, style: .time)
+            Button("Save date") { date = Date() }
+        }
+        .expanded()
     }
 }
 
