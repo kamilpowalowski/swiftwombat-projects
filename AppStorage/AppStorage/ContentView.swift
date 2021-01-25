@@ -53,8 +53,7 @@ struct ViewD: View {
     @AppStorage("savedDate") var date: Date = Date()
     
     var body: some View {
-        print(date)
-        return VStack {
+        VStack {
             Text(date, style: .date)
             Text(date, style: .time)
             Button("Save date") { date = Date() }
