@@ -22,11 +22,11 @@ public struct Bubble: View {
                     .renderingMode(.template)
                     .foregroundColor(bubbleForegroundColor)
                     .scaleEffect(scaleEffect)
-                    .layoutPriority(-1)
                 Text(text)
                     .foregroundColor(.white)
                     .padding(.horizontal, 16)
                     .padding(.vertical)
+                    .layoutPriority(1)
             }
             if mode == .receiver { spacer }
         }

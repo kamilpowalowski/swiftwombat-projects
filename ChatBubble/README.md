@@ -1,6 +1,6 @@
 # Swift Wombat examples
 
-Welcome. You are browsing an example Xcode project/playground created for this [Swift Wombat tutorial](https://swiftwombat.com/how-to-control-swiftui-image-resize-zones-with-capinsets/). 
+Welcome. You are browsing an example Xcode project/playground created for [this](https://swiftwombat.com/how-to-control-swiftui-image-resize-zones-with-capinsets/) and [this](ttps://swiftwombat.com/how-to-use-zstack-to-create-a-chat-bubble-in-swiftui/). 
 
 ## How to download this example project?
 You can use one of two ways:
