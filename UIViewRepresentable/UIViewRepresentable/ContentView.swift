@@ -34,7 +34,7 @@ struct TextView: UIViewRepresentable {
     }
 
     class Coordinator: NSObject, UITextViewDelegate {
-        @Binding var text: String
+        @Binding private var text: String
 
         init(text: Binding<String>) {
             self._text = text
