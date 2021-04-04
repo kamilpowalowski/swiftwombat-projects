@@ -2,7 +2,8 @@ import SwiftUI
 import PlaygroundSupport
 
 struct ContentView: View {
-    @State var disabled = false
+    @State private var disabled = false
+    
     var body: some View {
         VStack {
             Button("Press me 1", action: { disabled.toggle() })
