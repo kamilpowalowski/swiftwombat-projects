@@ -22,7 +22,7 @@ struct AnimalPicker: View {
 
     var body: some View {
         VStack {
-            Text("Please select animal:")
+            Text("Please select an animal:")
             button(for: .wombat)
             button(for: .koala)
             button(for: .platypus)
@@ -54,7 +54,10 @@ struct SimpleAlert: View {
                 title: Text("Uninstall this application"),
                 message: Text("Do you want to uninstall this application? This action cannot be undone."),
                 primaryButton: .cancel(),
-                secondaryButton: .destructive(Text("Uninstall"))
+                secondaryButton: .destructive(
+                    Text("Uninstall"),
+                    action: { /* do something */ }
+                )
             )
         }
     }
