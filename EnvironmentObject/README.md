@@ -14,4 +14,4 @@ git clone https://github.com/kamilpowalowski/swiftwombat-projects.git
 
 or
 
-- Download directory using this [DownGit URL](https://downgit.github.io/#/home?url=https://github.com/kamilpowalowski/swiftwombat-projects/tree/main/DisabledButton).
+- Download directory using this [DownGit URL](https://downgit.github.io/#/home?url=https://github.com/kamilpowalowski/swiftwombat-projects/tree/main/EnvironmentObject).
