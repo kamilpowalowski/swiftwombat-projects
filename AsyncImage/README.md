@@ -1,6 +1,6 @@
 # Swift Wombat examples
 
-Welcome. You are browsing an example Xcode project/playground created for this [Swift Wombat tutorial](https://swiftwombat.com/how-to-change-the-button-view-style-in-swiftui/).
+Welcome. You are browsing an example Xcode project/playground created for this [Swift Wombat tutorial](https://swiftwombat.com/https://swiftwombat.com/how-to-display-images-from-the-web-using-asyncimage-in-swiftui//).
 
 ## How to download this example project?
 
