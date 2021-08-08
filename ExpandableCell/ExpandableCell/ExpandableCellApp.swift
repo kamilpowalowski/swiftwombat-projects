@@ -4,7 +4,7 @@ import SwiftUI
 struct ExpandableCellApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TasksView()
         }
     }
 }

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8E63660326BFE84800BD8779 /* ExpandableCellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63660226BFE84800BD8779 /* ExpandableCellApp.swift */; };
-		8E63660526BFE84800BD8779 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63660426BFE84800BD8779 /* ContentView.swift */; };
+		8E63660526BFE84800BD8779 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63660426BFE84800BD8779 /* TasksView.swift */; };
 		8E63660726BFE84A00BD8779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E63660626BFE84A00BD8779 /* Assets.xcassets */; };
 		8E63660A26BFE84A00BD8779 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E63660926BFE84A00BD8779 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		8E6365FF26BFE84800BD8779 /* ExpandableCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpandableCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E63660226BFE84800BD8779 /* ExpandableCellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCellApp.swift; sourceTree = "<group>"; };
-		8E63660426BFE84800BD8779 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E63660426BFE84800BD8779 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
 		8E63660626BFE84A00BD8779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E63660926BFE84A00BD8779 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8E63660B26BFE84A00BD8779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				8E63660226BFE84800BD8779 /* ExpandableCellApp.swift */,
-				8E63660426BFE84800BD8779 /* ContentView.swift */,
+				8E63660426BFE84800BD8779 /* TasksView.swift */,
 				8E63660626BFE84A00BD8779 /* Assets.xcassets */,
 				8E63660B26BFE84A00BD8779 /* Info.plist */,
 				8E63660826BFE84A00BD8779 /* Preview Content */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E63660526BFE84800BD8779 /* ContentView.swift in Sources */,
+				8E63660526BFE84800BD8779 /* TasksView.swift in Sources */,
 				8E63660326BFE84800BD8779 /* ExpandableCellApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

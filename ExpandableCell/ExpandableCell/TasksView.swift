@@ -11,7 +11,7 @@ struct Subtask: Identifiable {
     let title: String
 }
 
-struct ContentView: View {
+struct TasksView: View {
     private let tasks: [Task] = [
         Task(title: "Create playground", subtask: []),
         Task(title: "Write article", subtask: []),
@@ -44,11 +44,9 @@ struct TaskCell: View {
     let task: Task
     
     var body: some View {
-        HStack {
-            content
-            Spacer()
-        }
-        .padding(.leading)
+        content
+            .padding(.leading)
+            .frame(maxWidth: .infinity)
     }
     
     private var content: some View {
@@ -74,9 +72,7 @@ struct TaskCell: View {
             Text(task.title)
         }
         .padding(.vertical, 4)
-        .onTapGesture {
-            withAnimation { isExpanded.toggle() }
-        }
+        .onTapGesture { isExpanded.toggle() }
     }
 }
 
