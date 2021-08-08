@@ -1,10 +1,13 @@
 # Swift Wombat examples
 
-Welcome. You are browsing an example Xcode project/playground created for this [Swift Wombat tutorial](https://swiftwombat.com/how-to-apply-text-modifiers-based-on-the-swiftui-view-state/). 
+Welcome. You are browsing an example Xcode project/playground created for this [Swift Wombat tutorial](https://swiftwombat.com/how-to-apply-text-modifiers-based-on-the-swiftui-view-state/).
 
 ## How to download this example project?
+
 You can use one of two ways:
-- Clone whole repository using terminal 
+
+- Clone whole repository using terminal
+
 ```bash
 git clone https://github.com/kamilpowalowski/swiftwombat-projects.git
 ```
