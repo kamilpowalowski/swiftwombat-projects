@@ -9,7 +9,7 @@ struct ContentView: View {
     @State private var rows = 0
 
     var body: some View {
-        List(0..<rows, id: \.self) { number in
+        List(0 ..< rows, id: \.self) { number in
             Text("row \(number)")
         }
         .task {

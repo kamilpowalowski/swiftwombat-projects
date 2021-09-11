@@ -5,7 +5,7 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(\.colorScheme) private var colorScheme: ColorScheme
-    
+
     var body: some View {
         ZStack {
             Image("background")

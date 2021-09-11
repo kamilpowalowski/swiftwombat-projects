@@ -13,7 +13,7 @@ struct ContentView: View {
 
 struct ViewA: View {
     @AppStorage("valueKey") var value: Int = 0
-    
+
     var body: some View {
         VStack {
             Text("ViewA value: \(value)")
@@ -26,7 +26,7 @@ struct ViewA: View {
 
 struct ViewB: View {
     @AppStorage("valueKey") var value: Int = 0
-    
+
     var body: some View {
         VStack {
             Text("ViewB value: \(value)")
@@ -39,7 +39,7 @@ struct ViewB: View {
 
 struct ViewC: View {
     @AppStorage("valueKey", store: UserDefaults(suiteName: "com.swiftwombat.customStore")) var value: Int = 0
-    
+
     var body: some View {
         VStack {
             Text("ViewC value in custom store: \(value)")
@@ -50,8 +50,8 @@ struct ViewC: View {
 }
 
 struct ViewD: View {
-    @AppStorage("savedDate") var date: Date = Date()
-    
+    @AppStorage("savedDate") var date = Date()
+
     var body: some View {
         VStack {
             Text(date, style: .date)

@@ -1,5 +1,5 @@
-import SwiftUI
 import PlaygroundSupport
+import SwiftUI
 
 struct ContentView: View {
     private let url = URL(string: "http://placekitten.com/200/200")

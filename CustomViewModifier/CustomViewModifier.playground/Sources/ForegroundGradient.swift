@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ForegroundGradient: ViewModifier {
     let gradient: LinearGradient
-    
+
     func body(content: Content) -> some View {
         content
             .overlay(gradient)

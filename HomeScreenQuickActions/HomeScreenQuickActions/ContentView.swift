@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var quickActions: QuickActionService
-    
+
     var body: some View {
         VStack {
             Text("Home Screen Quick Actions")
@@ -21,6 +21,5 @@ struct ContentView_Previews: PreviewProvider {
             ContentView()
                 .environmentObject(QuickActionService(initialValue: .newMessage))
         }
-        
     }
 }

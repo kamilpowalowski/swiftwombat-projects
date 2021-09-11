@@ -19,12 +19,12 @@ struct TasksView: View {
             title: "Prepare assets",
             subtask: [
                 Subtask(title: "Cover image"),
-                Subtask(title: "Screenshots")
+                Subtask(title: "Screenshots"),
             ]
         ),
-        Task(title: "Publish article", subtask: [])
+        Task(title: "Publish article", subtask: []),
     ]
-    
+
     var body: some View {
         NavigationView {
             ScrollView {
@@ -40,15 +40,15 @@ struct TasksView: View {
 
 struct TaskCell: View {
     @State private var isExpanded: Bool = false
-    
+
     let task: Task
-    
+
     var body: some View {
         content
             .padding(.leading)
             .frame(maxWidth: .infinity)
     }
-    
+
     private var content: some View {
         VStack(alignment: .leading, spacing: 8) {
             header
@@ -64,7 +64,7 @@ struct TaskCell: View {
             Divider()
         }
     }
-    
+
     private var header: some View {
         HStack {
             Image(systemName: "square")
@@ -78,7 +78,7 @@ struct TaskCell: View {
 
 struct SubtaskCell: View {
     let task: Subtask
-    
+
     var body: some View {
         HStack {
             Image(systemName: "circle")
@@ -90,7 +90,7 @@ struct SubtaskCell: View {
 
 struct EmptySubtaskCell: View {
     @State private var text: String = ""
-    
+
     var body: some View {
         HStack {
             Image(systemName: "circle")

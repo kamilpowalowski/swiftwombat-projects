@@ -1,5 +1,5 @@
-import SwiftUI
 import PlaygroundSupport
+import SwiftUI
 
 enum Animal: String, CaseIterable, Identifiable {
     case wombat, koala, platypus

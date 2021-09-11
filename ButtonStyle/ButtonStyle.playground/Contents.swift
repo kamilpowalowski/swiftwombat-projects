@@ -1,5 +1,5 @@
-import SwiftUI
 import PlaygroundSupport
+import SwiftUI
 
 struct BorderedButtonStyle: PrimitiveButtonStyle {
     let color: Color
@@ -27,7 +27,6 @@ struct ContentView: View {
             Button("Bordered button style", action: {})
                 .buttonStyle(BorderedButtonStyle(color: .orange))
         }
-
     }
 }
 

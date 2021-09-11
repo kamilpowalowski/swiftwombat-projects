@@ -1,7 +1,7 @@
-import SwiftUI
 import PlaygroundSupport
+import SwiftUI
 
-//swizzleLocale()
+// swizzleLocale()
 
 let now = Date()
 let hundredMinutes: TimeInterval = 100 * 60
@@ -18,7 +18,7 @@ struct ContentView: View {
             Text(date, style: .timer)
             Text(DateInterval(start: now, duration: twoDays))
             Text(DateInterval(start: now, duration: hundredMinutes))
-            Text(now...date)
+            Text(now ... date)
             Text("Styles can be used inside other strings with string interpolation: \(date, style: .relative)")
         }
     }

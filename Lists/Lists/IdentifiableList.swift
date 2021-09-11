@@ -2,7 +2,7 @@ import SwiftUI
 
 struct IdentifiableList: View {
     private struct Continent: Identifiable {
-        let id: UUID = UUID()
+        let id = UUID()
         let name: String
     }
 
@@ -20,7 +20,7 @@ struct IdentifiableList: View {
         Continent(name: "South America"),
         Continent(name: "Antarctica"),
         Continent(name: "Europe"),
-        Continent(name: "Australia")
+        Continent(name: "Australia"),
     ]
 }
 

@@ -29,7 +29,7 @@ struct TextView: UIViewRepresentable {
         Coordinator(text: $text)
     }
 
-    func updateUIView(_ uiView: UITextView, context: Context) {
+    func updateUIView(_ uiView: UITextView, context _: Context) {
         uiView.text = text
     }
 
@@ -37,7 +37,7 @@ struct TextView: UIViewRepresentable {
         @Binding private var text: String
 
         init(text: Binding<String>) {
-            self._text = text
+            _text = text
         }
 
         func textViewDidChange(_ textView: UITextView) {
@@ -45,7 +45,6 @@ struct TextView: UIViewRepresentable {
         }
     }
 }
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

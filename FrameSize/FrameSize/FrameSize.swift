@@ -8,12 +8,12 @@ extension View {
 
 private struct FrameSize: ViewModifier {
     static let color: Color = .blue
-    
+
     func body(content: Content) -> some View {
         content
             .overlay(GeometryReader(content: overlay(for:)))
     }
-    
+
     func overlay(for geometry: GeometryProxy) -> some View {
         ZStack(
             alignment: Alignment(

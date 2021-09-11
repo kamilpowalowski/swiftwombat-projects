@@ -5,7 +5,7 @@ public extension Text {
         guard active else { return self }
         return italic()
     }
-    
+
     func active(
         _ active: Bool,
         _ modifier: (Text) -> Text
@@ -13,7 +13,7 @@ public extension Text {
         guard active else { return self }
         return modifier(self)
     }
-    
+
     func active(
         _ active: Bool,
         _ modifier: (Text) -> () -> Text

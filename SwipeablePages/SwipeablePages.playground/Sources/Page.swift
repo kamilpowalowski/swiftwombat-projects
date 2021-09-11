@@ -4,7 +4,7 @@ public struct Page: View {
     let title: String
     let image: UIImage
     let color: Color
-    
+
     public init(
         title: String,
         image: UIImage,
@@ -14,7 +14,7 @@ public struct Page: View {
         self.image = image
         self.color = color
     }
-    
+
     public var body: some View {
         VStack {
             Image(uiImage: image)

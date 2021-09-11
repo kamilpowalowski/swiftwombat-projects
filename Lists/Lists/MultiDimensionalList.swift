@@ -2,13 +2,13 @@ import SwiftUI
 
 struct MultiDimensionalList: View {
     private struct Continent: Identifiable {
-        let id: UUID = UUID()
+        let id = UUID()
         let name: String
         let animals: [Animal]
     }
 
     private struct Animal: Identifiable {
-        let id: UUID = UUID()
+        let id = UUID()
         let name: String
     }
 
@@ -32,7 +32,7 @@ struct MultiDimensionalList: View {
                 Animal(name: "Mandarin Duck"),
                 Animal(name: "Panda"),
                 Animal(name: "Tiger"),
-                Animal(name: "Water Buffalo")
+                Animal(name: "Water Buffalo"),
             ]
         ),
         Continent(
@@ -42,7 +42,7 @@ struct MultiDimensionalList: View {
                 Animal(name: "Elephant"),
                 Animal(name: "Gazelle"),
                 Animal(name: "Hornbill"),
-                Animal(name: "Lion")
+                Animal(name: "Lion"),
             ]
         ),
         Continent(
@@ -52,7 +52,7 @@ struct MultiDimensionalList: View {
                 Animal(name: "Beaver"),
                 Animal(name: "Bison"),
                 Animal(name: "Moose"),
-                Animal(name: "Raccoon")
+                Animal(name: "Raccoon"),
             ]
         ),
         Continent(
@@ -62,17 +62,16 @@ struct MultiDimensionalList: View {
                 Animal(name: "Armadillo"),
                 Animal(name: "Llama"),
                 Animal(name: "Monkey"),
-                Animal(name: "Parrot")
+                Animal(name: "Parrot"),
             ]
         ),
         Continent(name: "Antarctica",
                   animals: [
-                    Animal(name: "Polar Bear"),
-                    Animal(name: "Walrus"),
-                    Animal(name: "Penguin"),
-                    Animal(name: "Narwhal")
-                  ]
-        ),
+                      Animal(name: "Polar Bear"),
+                      Animal(name: "Walrus"),
+                      Animal(name: "Penguin"),
+                      Animal(name: "Narwhal"),
+                  ]),
         Continent(
             name: "Europe",
             animals: [
@@ -80,7 +79,7 @@ struct MultiDimensionalList: View {
                 Animal(name: "Red Squirrel"),
                 Animal(name: "Stork"),
                 Animal(name: "Wild Boar"),
-                Animal(name: "Wolf")
+                Animal(name: "Wolf"),
             ]
         ),
         Continent(
@@ -90,7 +89,7 @@ struct MultiDimensionalList: View {
                 Animal(name: "Kangaroo"),
                 Animal(name: "Koala"),
                 Animal(name: "Quokka"),
-                Animal(name: "Platypus")
+                Animal(name: "Platypus"),
             ]
         ),
     ]

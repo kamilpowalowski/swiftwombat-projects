@@ -1,5 +1,5 @@
-import SwiftUI
 import PlaygroundSupport
+import SwiftUI
 
 let size: CGFloat = 150
 
@@ -22,7 +22,6 @@ struct ContentView: View {
                 .aspectRatio(6, contentMode: .fit)
                 .frame(height: size)
         }
-
     }
 }
 

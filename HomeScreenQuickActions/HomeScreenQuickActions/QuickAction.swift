@@ -6,7 +6,7 @@ enum QuickAction: String {
 
 final class QuickActionService: ObservableObject {
     @Published var action: QuickAction?
-    
+
     init(initialValue: QuickAction? = nil) {
         action = initialValue
     }

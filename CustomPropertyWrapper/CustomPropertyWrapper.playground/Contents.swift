@@ -3,7 +3,7 @@ struct Logged<Value> {
     private var value: Value
 
     init(wrappedValue: Value) {
-        self.value = wrappedValue
+        value = wrappedValue
     }
 
     var wrappedValue: Value {

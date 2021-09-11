@@ -5,7 +5,7 @@ struct ContentView: View {
         VStack(spacing: 8) {
             Text("Swift Wombat")
                 .overlay(
-                    GeometryReader {geometry in
+                    GeometryReader { geometry in
                         ZStack(
                             alignment: Alignment(
                                 horizontal: .trailing,

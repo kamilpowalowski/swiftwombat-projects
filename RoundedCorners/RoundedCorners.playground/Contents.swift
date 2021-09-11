@@ -1,5 +1,5 @@
-import SwiftUI
 import PlaygroundSupport
+import SwiftUI
 
 struct ContentView: View {
     var body: some View {
@@ -20,7 +20,7 @@ struct ContentView: View {
                 )
         }
     }
-    
+
     private var text: some View {
         Text("Swift Wombat")
             .font(.largeTitle)

@@ -1,5 +1,5 @@
-import SwiftUI
 import PlaygroundSupport
+import SwiftUI
 
 struct ContentView: View {
     var body: some View {
@@ -38,7 +38,7 @@ struct ContentView: View {
                     .kerning(1.2)
                 Text("tracking tracking tracking")
                     .tracking(1.2)
-            }            
+            }
         }
     }
 }

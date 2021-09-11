@@ -1,5 +1,5 @@
-import SwiftUI
 import PlaygroundSupport
+import SwiftUI
 
 class Counter: ObservableObject {
     @Published var value = 0
@@ -7,7 +7,7 @@ class Counter: ObservableObject {
 
 struct ContentView: View {
     @StateObject private var counter = Counter()
-    
+
     var body: some View {
         CounterView()
             .environmentObject(counter)

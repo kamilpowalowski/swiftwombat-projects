@@ -2,12 +2,11 @@ import SwiftUI
 
 @main
 struct HomeScreenQuickActionsApp: App {
-    
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     @Environment(\.scenePhase) var scenePhase
-    
+
     private let quickActionService = QuickActionService()
-    
+
     var body: some Scene {
         WindowGroup {
             ContentView()
@@ -24,7 +23,7 @@ struct HomeScreenQuickActionsApp: App {
             }
         }
     }
-    
+
     private func addDynamicQuickActions() {
         UIApplication.shared.shortcutItems = [
             UIApplicationShortcutItem(
@@ -40,7 +39,7 @@ struct HomeScreenQuickActionsApp: App {
                 localizedSubtitle: "7 new messages",
                 icon: UIApplicationShortcutIcon(systemImageName: "tray"),
                 userInfo: nil
-            )
+            ),
         ]
     }
 }
